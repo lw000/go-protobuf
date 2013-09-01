@@ -1,4 +1,4 @@
-golang-protobuf (0.20130901-1) unstable; urgency=low
+golang-goprotobuf (0.20130901-1) unstable; urgency=low
 
   * Initial release
 
