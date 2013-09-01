@@ -1,0 +1,16 @@
+Source: golang-protobuf
+Section: devel
+Priority: extra
+Maintainer: Tonnerre Lombard <tonnerre@ancient-solutions.com>
+Build-Depends: debhelper (>= 8.0.0), dh-golang, golang-go (>= 1.0)
+Standards-Version: 3.9.4
+Homepage: https://code.google.com/p/protobuf/
+Vcs-Svn: http://protobuf.googlecode.com/svn/trunk/
+Vcs-Browser: https://code.google.com/p/protobuf/source/browse/
+
+Package: golang-protobuf-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Protocol buffer support for the Go programming language.
+ Adds support for serializing and deserializing data in the protocol buffer
+ format for users of the Go language.
