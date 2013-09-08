@@ -10,7 +10,7 @@ Vcs-Browser: https://code.google.com/p/protobuf/source/browse/
 
 Package: golang-goprotobuf-dev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, protobuf-compiler
 Description: Protocol buffer support for the Go programming language.
  Adds support for serializing and deserializing data in the protocol buffer
  format for users of the Go language.
