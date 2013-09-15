@@ -5,8 +5,8 @@ Maintainer: Tonnerre Lombard <tonnerre@ancient-solutions.com>
 Build-Depends: debhelper (>= 8.0.0), dh-golang, golang-go (>= 1.0)
 Standards-Version: 3.9.4
 Homepage: https://code.google.com/p/protobuf/
-Vcs-Svn: http://protobuf.googlecode.com/svn/trunk/
-Vcs-Browser: https://code.google.com/p/protobuf/source/browse/
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-goprotobuf.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-goprotobuf.git;a=summary
 
 Package: golang-goprotobuf-dev
 Architecture: any
