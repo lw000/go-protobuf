@@ -11,6 +11,6 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-goprotob
 Package: golang-goprotobuf-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, protobuf-compiler
-Description: Protocol buffer support for the Go programming language.
+Description: Protocol buffer support for the Go programming language
  Adds support for serializing and deserializing data in the protocol buffer
  format for users of the Go language.
