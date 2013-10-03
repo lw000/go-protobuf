@@ -3,7 +3,7 @@ Upstream-Name: golang-goprotobuf
 Source: https://code.google.com/p/protobuf/
 
 Files: *
-Copyright: 2008-2013, Google Inc.
+Copyright: 2008-2013, The Go Authors.
 License: BSD-3-Clause
 
 Files: debian/*
